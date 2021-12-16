@@ -7,7 +7,7 @@ import java.io.InputStream;
 
 public class FileReaderByte {
     public static void main(String[] args) throws IOException {
-        InputStream input = new FileInputStream("/src/main/resources/captmidn.txt");//importing the txt file
+        InputStream input = new FileInputStream("/Users/temporaryadmin/Documents/DCI/intellij_ex/file_IO_Bytes_Chars_GroupEx_16Dec/src/main/resources/captmidn.txt");//importing the txt file
         int data=input.read();//reads the first character
         while(data != -1){//keep reading till there is no character
             System.out.print((char) data);//print the value
